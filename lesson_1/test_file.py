@@ -8,6 +8,10 @@ d['c'] = [3,2,1]
 print('add key value pair...')
 print(pandas.DataFrame(d))
 
+d['a'] = ['a', 'a', 'a']
+print('change key value pair...')
+print(pandas.DataFrame(d))
+
 del d['a']
 print('delete key value pair...')
 print(pandas.DataFrame(d))
